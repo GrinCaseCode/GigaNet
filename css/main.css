@@ -166,7 +166,7 @@ form {
 }
 .sandwich.active .sw-topper {
 	top: 10px;
-	width: 16px;
+	width: 18px;
 	transform: rotate(45deg);
 }
 .sandwich.active .sw-bottom {
@@ -1286,4 +1286,7 @@ form {
 .row > div:nth-child(4) .footer__column,
 .row > div:nth-child(3) .footer__column {
 	margin-left: 30px;
+}
+.menu-overlay {
+	display: none;
 }

@@ -24,12 +24,27 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
 	//кнопка sandwich
 	$(".sandwich").click(function() {
-		$(this).toggleClass("active");
 		if ($(".menu-mobile").is(":hidden")) {
 			$(".menu-mobile").slideDown(200);
+			$(".menu-overlay").fadeIn(200);
+			$(this).addClass("active");
 		} else {
 			$(".menu-mobile").slideUp(200);
+			$(".menu-overlay").fadeOut(200);
+			$(this).removeClass("active");
 		}
+	});
+	
+	$(".menu-overlay").click(function() {
+		$(".menu-mobile").slideUp(200);
+		$(".menu-overlay").fadeOut(200);
+		$(".sandwich").removeClass("active");
+	});
+
+	$(".tabs-filter a").click(function(e) {
+		e.preventDefault();
+		$(this).parent().addClass("active");
+		$(this).parent().siblings().removeClass("active");
 	});
 
 	//слайдер
