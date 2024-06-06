@@ -832,7 +832,7 @@
     }
     .item-service {
         height: 225px;
-        font-size: 11px;
+        font-size: 13px;
         line-height: 140%;
     }
     .item-service__image {
@@ -841,6 +841,9 @@
     .item-service {
         min-height: 200px;
         height: auto;
+    }
+    .item-service .btn-main {
+        font-size: 12px;
     }
     .title-section {
         font-size: 28px;
