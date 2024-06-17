@@ -24,7 +24,7 @@
     .btn-tg {
     width: 32px;
     height: 32px;
-    font-size: 16px;
+    font-size: 16px; 
     }
     .header {
     padding: 16px 0;
@@ -335,6 +335,124 @@
 .wrapper {
     padding-top: 76px;
 }
+.page-links a {
+    height: 43px;
+    padding: 0 15px;
+    font-size: 12px;
+}
+.title-main {
+    font-size: 36px;
+}
+.page-links {
+    margin-top: -48px;
+    margin-bottom: 36px;
+}
+.item-sale__image {
+    height: 282px;
+}
+.item-sale__content {
+    padding: 16px 18px;
+    padding-bottom: 21px;
+}
+.item-sale__title {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.item-sale p {
+    margin-bottom: 14px;
+}
+.item-sale__image::after {
+    background-size: 400px auto;
+}
+.row_main > div:nth-child(3) .item-sale__image::after, 
+.row_main > div:nth-child(2) .item-sale__image::after {
+    background-size: 600px auto;
+}
+.pager {
+    height: 42px;
+    margin-top: 55px;
+}
+.prev.page-numbers, .next.page-numbers {
+    width: 46px;
+    height: 42px;
+}
+.page-sale {
+    padding-top: 22px;
+    padding-bottom: 65px;
+}
+.page-news {
+    padding-top: 25px;
+    padding-bottom: 55px;
+}
+.page-news .title-main {
+    margin-bottom: 24px;
+}
+.item-news {
+    padding: 15px 18px;
+}
+.item-news__image {
+    height: 223px;
+}
+.item-news__title {
+    font-size: 20px;
+    max-width: 370px;
+    margin-bottom: 14px;
+}
+.page-about {
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+.billbord-about {
+    height: 560px;
+    padding: 55px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+.title-billbord {
+    font-size: 69px;
+    max-width: 465px;
+}
+.billbord-about::after {
+    width: 1260px;
+    height: 474px;
+    bottom: 22px;
+    left: 21px;
+}
+.about__info {
+    padding: 40px 65px;
+    margin-top: 70px;
+    font-size: 16px;
+}
+.billbord-about.billbord-about_vacancies::after {
+    width: 1100px;
+    height: 500px;
+    top: 55px;
+}
+.billbord-about.billbord-about_vacancies {
+    margin-bottom: 70px;
+}
+.item-vacancy__head {
+    font-size: 24px;
+    padding: 24px 35px;
+    padding-right: 20px;
+}
+.item-vacancy__content {
+    padding: 0 50px;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+.title-about.title-about_vacancies {
+    max-width: 813px;
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+.form-page {
+    padding: 36px 140px;
+}
+.page-vacancies {
+    padding-top: 45px;
+    padding-bottom: 80px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -550,6 +668,59 @@
     .wrapper {
         padding-top: 60px;
     }
+    .item-sale__image {
+        height: 220px;
+    }
+    .item-sale__image::after {
+        background-size: 320px auto;
+    }
+    .row_main > div:nth-child(3) .item-sale__image::after, .row_main > div:nth-child(2) .item-sale__image::after {
+        background-size: 465px auto;
+    }
+    .item-news {
+        padding: 10px;
+    }
+    .item-news__image {
+        height: 176px;
+    }
+    .item-news__title {
+        font-size: 17px;
+    }
+    .billbord-about {
+        height: 440px;
+        padding: 40px;
+        padding-top: 20px;
+        padding-bottom: 56px;
+    }
+    .title-billbord {
+        font-size: 56px;
+        max-width: 415px;
+    }
+    .billbord-about::after {
+        width: 990px;
+        height: 360px;
+        bottom: 8px;
+        left: 5px;
+    }
+    .about__info {
+        padding: 32px 40px;
+        margin-top: 55px;
+        font-size: 14px;
+    }
+    .billbord-about.billbord-about_vacancies::after {
+        width: 850px;
+        height: 403px;
+        top: 35px;
+    }
+    .item-vacancy__head {
+        font-size: 21px;
+    }
+    .form-page {
+        padding: 36px 40px;
+    }
+    .title-about.title-about_vacancies {
+        max-width: 665px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -712,6 +883,67 @@
         color: #191E27;
         background: transparent;
     }
+    .item-sale__image {
+        height: 335px;
+    }
+    .page-links {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+    .title-main {
+        font-size: 32px;
+    }
+    .page-sale .title-main {
+        margin-bottom: 15px;
+    }
+    .pager {
+        margin-top: 35px;
+    }
+    .row_main > div:nth-child(3) .item-sale__image::after, .row_main > div:nth-child(2) .item-sale__image::after {
+        background-size: 725px auto;
+    }
+    .item-sale__image::after {
+        background-size: 450px auto;
+    }
+    .billbord-about::after {
+        width: 760px;
+        height: 288px;
+        bottom: -3px;
+        left: 5px;
+    }
+    .about .title-about.title-about_top {
+        padding-top: 0;
+    }
+    .page-about {
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+    .file-upload {
+        justify-content: center;
+        display: flex;
+    }
+    .col_btn {
+        text-align: center;
+    }
+    .col_btn .btn-main {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .form-page .checkbox {
+        white-space: normal;
+    }
+    .page-vacancies {
+        padding-top: 35px;
+        padding-bottom: 55px;
+    }
+    .billbord-about.billbord-about_vacancies::after {
+        width: 650px;
+        height: 320px;
+        top: 35px;
+    }
+    .billbord-about.billbord-about_vacancies {
+        margin-bottom: 45px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -792,6 +1024,108 @@
         position: relative;
         max-width: 635px;
         left: 21px;
+    }
+    .item-sale__image {
+        height: 223px;
+    }
+    .item-sale__image::after {
+        background-size: 330px auto;
+    }
+    .item-sale .btn-main {
+        height: 41px;
+        padding: 0 16px;
+        font-size: 13px;
+    }
+    .row.row_main > div {
+        margin-bottom: 15px;
+    }
+    .row_main > div:nth-child(3) .item-sale__image::after, .row_main > div:nth-child(2) .item-sale__image::after {
+        background-size: 575px auto;
+    }
+    .item-sale__title {
+        font-size: 17px;
+        margin-bottom: 11px;
+    }
+    .page-sale {
+        padding-bottom: 50px;
+    }
+    .pager {
+        margin-top: 26px;
+    }
+    .item-news__image {
+        height: 245px;
+    }
+    .page-news {
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+    .page-news .title-main {
+        margin-bottom: 13px;
+    }
+    .billbord-about {
+        padding: 30px 15px;
+        height: 350px;
+        margin: 0 -15px;
+        border-radius: 0;
+    }
+    .title-billbord {
+        font-size: 40px;
+        max-width: 335px;
+    }
+    .page-about {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .billbord-about::after {
+        width: 460px;
+        height: 185px;
+        bottom: 3px;
+        left: -18px;
+    }
+    .page-about + .about .about__image {
+        padding-top: 20px;
+    }
+    .about__info {
+        padding: 22px 15px;
+        margin-top: 40px;
+        font-size: 13px;
+    }
+    .about .title-about.title-about_top {
+        padding-bottom: 10px;
+    }
+    .page-about + .about {
+        padding-bottom: 50px;
+    }
+    .about__info .title-about {
+        margin-bottom: 12px;
+    }
+    .billbord-about.billbord-about_vacancies::before {
+        border-radius: 0;
+    }
+    .billbord-about.billbord-about_vacancies::after {
+        width: 518px;
+        height: 255px;
+        top: 60px;
+    }
+    .item-vacancy__head {
+        font-size: 16px;
+        padding: 18px;
+    }
+    .item-vacancy__head::after {
+        width: 21px;
+        height: 21px;
+    }
+    .item-vacancy__content {
+        padding: 20px 15px;
+        font-size: 14px;
+        padding-top: 0;
+    }
+    .item-vacancy__content ul {
+        margin-bottom: 14px;
+    }
+    .title-about.title-about_vacancies {
+        padding-top: 20px;
+        padding-bottom: 25px;
     }
 }
 
@@ -888,6 +1222,22 @@
     }
     .slick-arrow {
         border-radius: 6px;
+    }
+    .row_main > div:nth-child(3) .item-sale__image::after, .row_main > div:nth-child(2) .item-sale__image::after {
+        background-size: 475px auto;
+    }
+    .item-sale__image::after {
+        background-size: 291px auto;
+    }
+    .item-news__image {
+        height: 215px;
+    }
+    .billbord-about.billbord-about_vacancies::after {
+        width: 380px;
+        height: 230px;
+    }
+    .form-page {
+        padding: 30px 20px;
     }
 }
 

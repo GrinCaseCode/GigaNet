@@ -18,6 +18,14 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     $menu.removeClass("fixed").addClass("default");
   }
 
+
+  $(".item-vacancy__head").click(function() {
+    $(this).parent().toggleClass("active");
+    $(this).siblings().slideToggle(200);
+    $(this).parent().siblings(".item-vacancy").removeClass("active");
+    $(this).parent().siblings(".item-vacancy").find(".item-vacancy__content").slideUp(200);
+  });
+
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
@@ -76,6 +84,13 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 				}); 
 			}
 		}
+
+			/*input file*/
+	$("input[type='file']").change(function(){
+		var filename_text = $(this).parent().siblings(".name-upload");
+		var filename = $(this).val().replace(/.*\\/, "");
+		filename_text.html(filename);
+	});
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
