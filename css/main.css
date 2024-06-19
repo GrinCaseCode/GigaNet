@@ -1733,3 +1733,115 @@ form {
 	font-size: 12px;
 	line-height: 15px;
 }
+
+.page-contacts {
+	padding-top: 30px;
+	padding-bottom: 74px;
+}
+.page-contacts .title-main {
+	margin-bottom: 30px;
+}
+.unit-contacts {
+	padding: 23px 36px;
+	font-size: 18px;
+	line-height: 167%;
+	font-weight: 500;
+	border-radius: 16px;
+	min-height: 100%;
+	background: #F2FAFF;
+}
+.unit-contacts .title-about {
+	margin-bottom: 12px;
+}
+.unit-contacts__mail,
+.unit-contacts__phone {
+	font-size: 32px;
+	line-height: 94%;
+	font-weight: 600;
+	color: #1C3A78;
+	display: inline-block;
+	vertical-align: middle;
+}
+.unit-contacts__mail {
+	font-size: 24px;
+	line-height: 125%;
+}
+.unit-contacts__left {
+	margin-right: 30px;
+}
+.unit-contacts__right {
+	margin-left: -30px;
+}
+.unit-contacts__right li {
+	margin-bottom: 11px;
+}
+.unit-contacts__right li:last-child {
+	margin-bottom: 0;
+}
+.unit-contacts__tel a {
+	font-size: 20px;
+	line-height: 150%;
+	font-weight: 600;
+	color: #1C3A78;
+}
+.unit-contacts__tel {
+	padding-top: 30px;
+	padding-bottom: 18px;
+}
+.unit-contacts .list-socials img {
+	width: 50px;
+}
+.unit-contacts .list-socials {
+	gap: 15px;
+}
+.unit-contacts__links {
+	font-size: 16px;
+	padding-top: 10px;
+	line-height: 187%;
+	font-weight: 500;
+}
+.unit-contacts__links li {
+	margin-bottom: 16px;
+}
+.unit-contacts__links li:last-child {
+	margin-bottom: 0;
+}
+.unit-contacts__links a {
+	color: #191E27;
+	border-bottom: 1px #191E27 solid;
+}
+.unit-contacts__links a:hover {
+	color: #1C56B6;
+	border-color: #1C56B6;
+}
+.form-main {
+	padding: 27px 62px;
+	padding-bottom: 35px;
+	border-radius: 16px;
+	background: #F1F4F7;
+}
+.form-main .title-about {
+	margin-bottom: 24px;
+	text-align: center;
+	line-height: 171%;
+}
+.form-main_bottom {
+	padding-top: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.form-main .checkbox {
+	margin-top: 26px;
+}
+.form-main .item-form {
+    margin-bottom: 16px;
+}
+#map {
+	height: 432px;
+	margin-top: 50px;
+	border-radius: 16px;
+	width: 100%;
+	background: #F1F4F7;
+	overflow: hidden;
+}
