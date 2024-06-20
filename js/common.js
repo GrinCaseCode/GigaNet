@@ -26,6 +26,18 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     $(this).parent().siblings(".item-vacancy").find(".item-vacancy__content").slideUp(200);
   });
 
+  $(".item-dropdown__head").click(function() {
+	$(this).parents().find(".item-dropdown").removeClass("active");
+    $(this).parents().find(".item-dropdown").find(".item-dropdown__content").slideUp(200);
+	if ($(this).siblings().is(":hidden")) {
+		$(this).siblings().slideDown(200);
+		$(this).parent().addClass("active");
+	} else {
+		$(this).siblings().slideUp(200);
+		$(this).parent().removeClass("active");
+	}
+  });
+
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 

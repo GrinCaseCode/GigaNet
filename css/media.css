@@ -453,6 +453,103 @@
     padding-top: 45px;
     padding-bottom: 80px;
 }
+.unit-contacts {
+    padding: 19px 21px;
+    font-size: 15px;
+}
+.unit-contacts__phone {
+    font-size: 28px;
+}
+.unit-contacts__mail {
+    font-size: 21px;
+}
+.unit-contacts__tel {
+    padding-top: 23px;
+    padding-bottom: 15px;
+}
+.unit-contacts__links {
+    font-size: 13px;
+    padding-top: 5px;
+}
+.unit-contacts__tel a {
+    font-size: 18px;
+}
+.item-form textarea {
+    height: 90px;
+    padding-top: 15px;
+}
+.form-main {
+    padding: 17px 36px;
+    padding-bottom: 27px;
+}
+.form-main .checkbox {
+    margin-top: 15px;
+}
+.form-main_bottom {
+    padding-top: 0;
+}
+.form-main .title-about {
+    margin-bottom: 12px;
+}
+.unit-contacts .title-about {
+    max-width: 300px;
+}
+#map {
+    height: 390px;
+    margin-top: 38px;
+}
+.page-contacts .title-main {
+    margin-bottom: 23px;
+}
+.page-contacts {
+    padding-top: 25px;
+    padding-bottom: 55px;
+}
+.page-requisites .title-main {
+    margin-bottom: 24px;
+}
+.page-requisites .title-middle {
+    margin-bottom: 22px;
+}
+.item-dropdown__head {
+    padding: 10px 25px;
+    font-size: 18px;
+    padding-right: 12px;
+}
+.item-dropdown__head::after {
+    width: 21px;
+    height: 21px;
+}
+.list-docs li a img {
+    width: 28px;
+}
+.list-docs li a {
+    padding-left: 38px;
+}
+.item-dropdown__content {
+    padding: 25px;
+    padding-top: 0;
+}
+.documents-wrap {
+    padding: 55px 0;
+}
+.item-doc {
+    padding: 13px;
+    padding-bottom: 22px;
+}
+.item-doc__image {
+    height: 168px;
+    margin-bottom: 13px;
+}
+.item-doc__icon {
+    top: 17px;
+    left: 14px;
+    width: 28px;
+    height: 28px;
+}
+.item-doc__image img {
+    max-height: 110px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -721,6 +818,32 @@
     .title-about.title-about_vacancies {
         max-width: 665px;
     }
+    .unit-contacts__phone {
+        font-size: 23px;
+    }
+    .unit-contacts__mail {
+        font-size: 18px;
+    }
+    .unit-contacts {
+        padding: 19px 20px;
+        font-size: 13px;
+    }
+    .form-main {
+        padding: 15px 20px;
+        padding-bottom: 23px;
+    }
+    .unit-contacts .list-socials img {
+        width: 43px;
+    }
+    .unit-contacts__links li {
+        margin-bottom: 12px;
+    }
+    .item-doc__title br {
+        display: none;
+    }
+    .page-requisites {
+        padding-bottom: 70px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -944,6 +1067,37 @@
     .billbord-about.billbord-about_vacancies {
         margin-bottom: 45px;
     }
+    .unit-contacts__left {
+        margin-right: 0;
+    }
+    .unit-contacts__right {
+        padding-top: 15px;
+        margin-left: 0;
+    }
+    .unit-contacts__tel {
+        padding-top: 12px;
+    }
+    .page-contacts .form-main {
+        margin-top: 20px;
+    }
+    .page-contacts .title-main {
+        margin-bottom: 16px;
+    }
+    .row_requisites > div {
+        margin-bottom: 20px;
+    }
+    .row_requisites > div:last-child {
+        margin-bottom: 0;
+    }
+    .row_requisites {
+        padding-bottom: 20px;
+    }
+    .item-doc__image {
+        height: 135px;
+    }
+    .item-doc__image img {
+        max-height: 90px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -1127,6 +1281,25 @@
         padding-top: 20px;
         padding-bottom: 25px;
     }
+    .page-requisites .title-main {
+        margin-bottom: 18px;
+    }
+    .item-dropdown__head {
+        padding: 8px 18px;
+        font-size: 15px;
+        padding-right: 12px;
+    }
+    .item-dropdown__content {
+        padding: 15px;
+        padding-top: 0;
+    }
+    .documents-wrap {
+        padding: 35px 0;
+    }
+    .page-requisites {
+        padding-bottom: 55px;
+    }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -1238,6 +1411,30 @@
     }
     .form-page {
         padding: 30px 20px;
+    }
+    .unit-contacts .title-about {
+        max-width: 245px;
+    }
+    #map {
+        height: 350px;
+        margin-top: 30px;
+    }
+    .item-doc__icon {
+        width: 25px;
+        height: 25px;
+    }
+    .item-doc {
+        padding: 8px;
+        padding-bottom: 17px;
+    }
+    .item-doc__image {
+        height: 120px;
+    }
+    .item-doc__image img {
+        max-height: 79px;
+    }
+    .list-docs li {
+        margin-bottom: 15px;
     }
 }
 

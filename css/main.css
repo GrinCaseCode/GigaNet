@@ -1845,3 +1845,125 @@ form {
 	background: #F1F4F7;
 	overflow: hidden;
 }
+.page-requisites {
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+.page-requisites .title-main {
+	margin-bottom: 30px;
+}
+.page-requisites .title-middle {
+	margin-bottom: 28px;
+}
+.item-dropdown {
+	margin-bottom: 10px;
+	border: 1px solid #1C56B6;
+	border-radius: 12px;
+}
+.item-dropdown__head {
+	padding: 11px 34px;
+	padding-right: 12px;
+	font-size: 20px;
+	line-height: 190%;
+	font-weight: 600;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.item-dropdown__head::after {
+	position: relative;
+	display: block;
+	content: " ";
+	width: 24px;
+	height: 24px;
+	background-image: url(../img/plus.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	flex: none;
+	transition: all 0.3s;
+}
+.item-dropdown.active .item-dropdown__head::after {
+	transform: rotate(45deg);
+}
+.item-dropdown__content {
+	padding: 0 40px;
+	padding-bottom: 32px;
+	display: none;
+}
+.list-docs li {
+	margin-bottom: 18px;
+}
+.list-docs li:last-child {
+	margin-bottom: 0;
+}
+.list-docs li a {
+	padding-left: 48px;
+	font-weight: 500;
+	color: #191E27;
+	display: block;
+	position: relative;
+}
+.list-docs li a img {
+	width: 32px;
+	height: auto;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+.list-docs li a:hover {
+	color: #1C56B6;
+}
+.row_requisites {
+	padding-bottom: 40px;
+}
+.documents-wrap {
+	padding: 65px 0;
+	background: #F1F4F7;
+}
+.item-doc {
+	padding: 17px;
+	padding-bottom: 33px;
+	border-radius: 16px;
+	display: block;
+	position: relative;
+	color: #191E27;
+	min-height: 100%;
+	background: #fff;
+}
+.item-doc:hover {
+	box-shadow: 0 5px 15px #c1d7e6;
+}
+.item-doc__image {
+	height: 196px;
+	margin-bottom: 18px;
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	background: #F1F4F7;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.item-doc__image img {
+	max-height: 136px;
+	width: auto;
+}
+.item-doc__icon {
+	top: 20px;
+	left: 17px;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+}
+.item-doc__icon img {
+	width: 100%;
+	height: auto;
+}
+.item-doc__title {
+	display: block;
+	color: #191E27;
+	font-weight: 500;
+	width: 100%;
+}
