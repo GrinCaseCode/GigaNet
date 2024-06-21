@@ -2098,10 +2098,10 @@ form {
 .item-question::after {
 	position: relative;
 	display: block;
-	content: " ";
+	content: " "; 
 	width: 24px;
 	height: 24px;
-	margin-left: 4px;
+	margin-left: 6px;
 	background-image: url(../img/plus.svg);
 	background-repeat: no-repeat;
 	background-position: center;
