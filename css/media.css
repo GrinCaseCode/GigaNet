@@ -550,6 +550,101 @@
 .item-doc__image img {
     max-height: 110px;
 }
+.page-payment {
+    padding-top: 45px;
+    padding-bottom: 70px;
+}
+.form-payment {
+    padding: 28px 37px;
+    padding-bottom: 44px;
+}
+.form-payment .title-middle {
+    padding-bottom: 20px;
+}
+.form-payment .item-form .jq-selectbox__select-text, .form-payment .item-form input {
+    height: 54px;
+    font-size: 13px;
+}
+.form-payment .item-form .jq-selectbox__dropdown {
+    font-size: 13px;
+}
+.form-payment .item-form {
+    margin-bottom: 15px;
+}
+.form-payment .btn-main {
+    margin-top: 15px;
+}
+.tabs-payment a {
+    height: 75px;
+    padding: 0 29px;
+    padding-right: 25px;
+    font-size: 24px;
+}
+.tabs-payment img {
+    max-width: 35px;
+    max-height: 37px;
+}
+.billbord-about_payment {
+    margin-bottom: 60px;
+}
+.page-questions .title-main {
+    margin-bottom: 27px;
+}
+.item-additional__head,
+.item-question {
+    font-size: 21px;
+    padding: 21px 35px;
+    padding-right: 25px;
+}
+.form-question {
+    padding: 32px 145px;
+    margin-top: 80px;
+}
+.form-question .item-form textarea {
+    height: 105px;
+}
+.page-questions {
+    padding-bottom: 80px;
+}
+.item-equipment {
+    padding: 16px;
+}
+.item-equipment__title {
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+.item-equipment__text {
+    font-size: 12px;
+    line-height: 190%;
+}
+.tag-equipment {
+    padding: 5px 11px;
+    font-size: 12px;
+    line-height: 210%;
+}
+.item-equipment__image {
+    height: 210px;
+}
+.item-equipment__value {
+    font-size: 13px;
+}
+.price-main {
+    font-size: 21px;
+}
+.item-equipment .btn-main {
+    height: 42px;
+    padding: 0 24px;
+}
+.page-equipment .title-main {
+    margin-bottom: 25px;
+}
+.descr-equipmenent {
+    padding-top: 32px;
+}
+.page-additional,
+.page-equipment {
+    padding-bottom: 80px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -844,6 +939,55 @@
     .page-requisites {
         padding-bottom: 70px;
     }
+    .form-payment {
+        padding: 25px 20px;
+        padding-bottom: 30px;
+    }
+    .text-payment .btn-main {
+        font-size: 13px;
+    }
+    .tabs-payment a {
+        height: 69px;
+        padding: 0 25px;
+        padding-right: 20px;
+        font-size: 21px;
+    }
+    .tabs-payment img {
+        max-width: 30px;
+        max-height: 33px;
+    }
+    .form-question {
+        padding: 30px 60px;
+        margin-top: 60px;
+    }
+    .form-question .title-about {
+        margin-bottom: 20px;
+    }
+    .form-question__bottom {
+        padding-top: 9px;
+    }
+    .item-answer .btn-main {
+        margin-top: 22px;
+        min-width: 215px;
+    }
+    .item-equipment__text {
+        font-size: 10px;
+    }
+    .item-equipment__title {
+        font-size: 14px;
+    }
+    .item-equipment__image {
+        height: 185px;
+    }
+    .price-main {
+        font-size: 18px;
+    }
+    .table-page table th, .table-page table td {
+        padding: 10px 25px;
+    }
+    .page-additional .title-main {
+        margin-bottom: 17px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -1098,6 +1242,47 @@
     .item-doc__image img {
         max-height: 90px;
     }
+    .item-additional__head,
+    .item-question {
+        font-size: 18px;
+        padding: 19px 20px;
+        padding-right: 16px;
+        margin-bottom: 15px;
+    }
+    .item-additional__head::after,
+    .item-question::after {
+        width: 21px;
+        height: 21px;
+    }
+    .form-question {
+        padding: 30px 20px;
+    }
+    .item-answer img {
+        margin-top: 20px;
+    }
+    .page-answer .title-main {
+        font-size: 29px;
+        margin-bottom: 20px;
+    }
+    .page-answer {
+        padding-bottom: 70px;
+    }
+    .item-equipment__text {
+        font-size: 13px;
+    }
+    .item-equipment__title {
+        font-size: 16px;
+    }
+    .item-equipment__value {
+        font-size: 14px;
+    }
+    .page-equipment .row.row_main > div {
+        margin-bottom: 15px;
+    }
+    .item-equipment .btn-main {
+        height: 44px;
+        padding: 0 35px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -1299,7 +1484,68 @@
     .page-requisites {
         padding-bottom: 55px;
     }
-
+    .page-payment {
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+    .billbord-about_payment {
+        margin-bottom: 25px;
+    }
+    .form-payment {
+        margin-bottom: 20px;
+    }
+    .page-questions .title-main {
+        font-size: 28px;
+        line-height: 140%;
+        margin-bottom: 22px;
+    }
+    .item-additional__head,
+    .item-question {
+        font-size: 16px;
+        padding: 15px 15px;
+        padding-right: 10px;
+        margin-bottom: 14px;
+    }
+    .form-question {
+        padding: 30px;
+        margin-top: 40px;
+    }
+    .form-question__bottom {
+        flex-direction: column-reverse;
+    }
+    .form-question__bottom .checkbox{ 
+        margin-top: 17px;
+    }
+    .page-questions {
+        padding-bottom: 60px;
+    }
+    .page-answer .title-main {
+        font-size: 24px;
+        line-height: 140%;
+    }
+    .item-answer {
+        margin-bottom: 35px;
+    }
+    .item-equipment__image {
+        height: 210px;
+        margin-bottom: 20px;
+    }
+    .item-equipment__bottom {
+        padding-top: 10px;
+    }
+    .row_equipment {
+        padding-top: 12px;
+    }
+    .item-equipment__value {
+        font-size: 13px;
+    }
+    .page-additional,
+    .page-equipment {
+        padding-bottom: 55px;
+    }
+    .descr-equipmenent {
+        padding-top: 22px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -1435,6 +1681,54 @@
     }
     .list-docs li {
         margin-bottom: 15px;
+    }
+    .billbord-about_payment {
+        height: 300px;
+        padding-top: 20px;
+    }
+    .form-main .btn-main,
+    .form-question .btn-main {
+        width: 100%;
+    }
+    .form-main .btn-main {
+        margin-top: 10px;
+    }
+    .form-question {
+        padding: 30px 20px;
+    }
+    .item-additional__head,
+    .item-question {
+        font-size: 14px;
+        padding: 12px 15px;
+        padding-right: 12px;
+    }
+    .item-additional__head::after,
+    .item-question::after {
+        width: 18px;
+        height: 18px;
+    }
+    .page-questions .title-main {
+        font-size: 23px;
+    }
+    .page-answer .title-main {
+        font-size: 23px;
+    }
+    .page-answer {
+        padding-bottom: 60px;
+    }
+    .page-additional .title-main,
+    .page-equipment .title-main {
+        margin-bottom: 22px;
+    }
+    .table-page table th, .table-page table td {
+        padding: 8px 20px;
+    }
+    .item-additional {
+        margin-bottom: 18px;
+    }
+    .page-additional .title-main {
+        font-size: 27px;
+        line-height: 140%;
     }
 }
 

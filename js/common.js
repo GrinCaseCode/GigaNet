@@ -26,6 +26,13 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     $(this).parent().siblings(".item-vacancy").find(".item-vacancy__content").slideUp(200);
   });
 
+  $(".item-additional__head").click(function() {
+    $(this).parent().toggleClass("active");
+    $(this).siblings().slideToggle(200);
+    $(this).parent().siblings(".item-additional").removeClass("active");
+    $(this).parent().siblings(".item-additional").find(".item-additional__content").slideUp(200);
+  });
+
   $(".item-dropdown__head").click(function() {
 	$(this).parents().find(".item-dropdown").removeClass("active");
     $(this).parents().find(".item-dropdown").find(".item-dropdown__content").slideUp(200);
@@ -37,6 +44,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		$(this).parent().removeClass("active");
 	}
   });
+
+  $('.input-number').on('keypress', function(event) {
+	var charCode = (event.which) ? event.which : event.keyCode;
+	if (charCode < 48 || charCode > 57) {
+		event.preventDefault();
+	}
+});
+
+
 
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
@@ -65,6 +81,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		e.preventDefault();
 		$(this).parent().addClass("active");
 		$(this).parent().siblings().removeClass("active");
+	});
+
+	$('.tabs-payment li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane-payment").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(200);
 	});
 
 	//слайдер
